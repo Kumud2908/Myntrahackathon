@@ -1,0 +1,60 @@
+.fs-main-wrapper{
+    width:90%;    
+    height: 200px;
+    align-items: center;
+  
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    font-family: 'Reggae One', cursive;
+    font-weight: 400;
+   
+   
+}
+/* .eventimg{
+    width:324px !important;
+    height: 132px !important;
+} */
+.fs-ele{
+    width:324px !important;
+    height: 132px !important;
+}
+
+
+
+.fs-head{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+.fs-slider-item{
+    width:324px !important;
+    height: 132px!important  ;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(11px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 9px 4px 0px #00000040;
+
+}
+.slick-arrow{
+    background-color: black!important;
+}
+.slick-arrow:hover{
+    
+}
+.slick-prev,
+.slick-next {
+  display: block !important;
+  opacity: 1;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none !important;; /* Arrow background color */
+}
+.slick-dots{
+    display: none!important;
+}
