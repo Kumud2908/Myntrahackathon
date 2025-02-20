@@ -1,0 +1,16 @@
+.sli-main-wrapper{
+    width:90%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.sli-slider-item{
+    border-radius: 50%;
+    width:80px !important;
+    height:80px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

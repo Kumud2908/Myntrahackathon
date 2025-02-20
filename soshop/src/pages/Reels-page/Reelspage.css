@@ -1,0 +1,66 @@
+.reel-main-wrapper{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    width:100%;
+  
+    background: linear-gradient(175.74deg, #AAAEF2 0.67%, #ED6F78 97.57%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.reel-main{
+    width:95%;
+   height: 520px;
+   
+    background-color:white;
+}
+
+.add-button-cont{
+    position: relative;
+    top: 348px;
+    background-color: #AAAEF2;
+}
+.like-button-cont {
+    width: 100%;
+    
+    align-items: flex-end;
+   
+    /* Positioning within the parent */
+    top: 120px; /* Align to the top */
+    right: 20px; /* Align to the right */
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+.reel-add-icon,.reel-like-icon{
+    width: 40px!important;
+    height: 40px !important;
+}
+
+#like-button{         
+    align-items: center;
+    font-size: 25px;
+    width:60px;
+    height: 60px;
+    margin-top:20px;
+    background-color: transparent!important;
+    border: none;
+
+}
+
+#add-button{
+    border-radius: 50%;
+    border-color: white;
+    background-color: white;
+    font-size: 25px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height:60px;
+    
+    
+}
